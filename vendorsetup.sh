@@ -1,1 +1,1 @@
-add_lunch_combo liquid-p880_userdebug
+add_lunch_combo liquid_p880-userdebug
