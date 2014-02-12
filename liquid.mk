@@ -6,10 +6,10 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_RELEASE_NAME := p880
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # This device has NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/p880/p880.mk)
@@ -17,7 +17,7 @@ $(call inherit-product, device/lge/p880/p880.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_RELEASE_NAME := Optimus4XHD
 PRODUCT_DEVICE := p880
-PRODUCT_NAME := cm_p880
+PRODUCT_NAME := liquid_p880
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
 

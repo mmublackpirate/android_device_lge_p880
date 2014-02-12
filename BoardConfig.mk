@@ -18,6 +18,8 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 ARCH_ARM_HAVE_32_BYTE_CACHE_LINE := true
 ARCH_ARM_USE_NON_NEON_MEMCPY := true
 TARGET_ARCH := arm
+TARGET_GCC_VERSION_AND := LINARO 
+TARGET_GCC_VERSION_ARM := LK﻿
 
 BOARD_KERNEL_CMDLINE := 
 BOARD_KERNEL_BASE := 0x10000000
@@ -82,7 +84,7 @@ BOARD_RIL_CLASS := ../../../device/lge/p880/ril/
 # Override healthd HAL
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.x3
 
-BOARD_CUSTOM_GRAPHICS := ../../../device/lge/p880/recovery-gfx.c
+#BOARD_CUSTOM_GRAPHICS := ../../../device/lge/p880/recovery-gfx.c
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/lge/p880/recovery-keys.c
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_BATTERY_DEVICE_NAME := battery
