@@ -35,6 +35,7 @@ TARGET_RECOVERY_PRE_COMMAND := "/system/bin/setup-recovery"
 
 # Try to build the kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_x3_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/x3
 # Keep this as a fallback
 TARGET_PREBUILT_KERNEL := device/lge/p880/kernel
 
